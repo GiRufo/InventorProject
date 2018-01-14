@@ -1,0 +1,52 @@
+/* M. Schneider */
+/* Three Column Template */
+/* 28-Dec-2017 */
+
+* { 
+    margin: 0;
+    padding: 0; }
+
+header { 
+    border-bottom: 2px solid #ef9c00; 
+    background-color: Brown; }
+
+body {
+    width: 90%;
+    background-color: BlanchedAlmond;
+    margin: 15px auto;
+    border: 1px solid brown; }
+
+#sidebarA {
+    width: 23%;
+    height: 1200px;     
+    float: left;
+    border-right: 2px solid brown;
+    color: Peru; }
+
+.topimg {height: 250px; 
+	     width: 250px;
+	     margin: .5px;
+	     padding: 20px;}
+	     
+.secimg {float: left;
+         height: 100px; 
+	     width: 100px;
+	     margin: .5px;
+	     padding: 20px;}     
+	     
+main {
+    width: 23%; 
+    float: left;
+    color: peru; }
+
+#sidebarB {
+    width: 23%;
+    height: 1200px;     
+    float: right;
+    border-left: 2px solid brown; 
+    color: Peru;}
+
+footer {
+    clear: both; 
+    border-top: 2px solid brown;
+    color: Peru; }
